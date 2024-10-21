@@ -2,7 +2,6 @@
 Created on Thu Feb  5  2023
 @author: Armagan /ml_lab
 """
-
 import pandas as pd
 import numpy as np
 from geopy.geocoders import Nominatim
@@ -241,6 +240,5 @@ def create_map(dict_bus_timetable, bus_limit = 0, start_pin = True, stop_pin=Tru
             m.fit_bounds([sw, ne])
                
    return m
-
 
 
